@@ -492,7 +492,7 @@ footer .footer-below {
 }
 
 header {
-  background-image: url('../img/network.jpg');
+  background-image: url('/img/network.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
