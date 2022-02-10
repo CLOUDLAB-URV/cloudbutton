@@ -22,6 +22,10 @@ keywords: "Cloud Computing models, Software Design & Development, High performan
 subtitle: "Serverless Data Analytics Platform"
 meta_author: CloudButton Consortium
 
+domain: cloudlab-urv.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://cloudlab-urv.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /cloudbutton/      # place folder name if the site is served in a subfolder
+
 # Google webmaster tools
 google_verify:
 
