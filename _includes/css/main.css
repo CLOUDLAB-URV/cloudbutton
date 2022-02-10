@@ -492,7 +492,6 @@ footer .footer-below {
 }
 
 header {
-  background-image: url({{ '/img/network.jpg' | relative_url }});
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
