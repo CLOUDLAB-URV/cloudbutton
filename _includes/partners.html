@@ -1,0 +1,33 @@
+    <!-- Partners Section -->
+    <section id="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Partners</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+		            <p>The CloudButton consortium is a well-balanced team of industrial and academic partners: </p>
+                </div>
+            </div>
+            <div class="row">
+                {% for partner in site.partners %}
+                    <div class="col-md-3">
+                        <a href="{{ partner.web }}" target="_blank">
+                            <img src="img/partners/{{ partner.img }}" class="img-responsive img-centered" alt="{{ partner.name }} ({{ partner.country }})">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="row" style="margin-top:50px;">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>CloudButton contributes to <a href="http://www.big-data-value.eu/" target="_blank">Big Data Value Public-Private Partnership</a> activities:</p>
+                </div>
+                <a href="http://www.big-data-value.eu/" target="_blank">
+                    <img style="width:400px;" src="img/bdv_ppp.png" class="img-responsive img-centered" alt="BDVA Public-Private Partnership">
+                </a>
+            </div>
+        </div>
+    </section>

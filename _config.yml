@@ -1,0 +1,104 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: CloudButton - Serverless Data Analytics Platform
+logo: "logo_h_w.png"
+email: your-email@domain.com
+url: http://cloudbutton.eu
+description: "H2020 CloudButton project - Serverless Data Analytics Platform"
+keywords: "Cloud Computing models, Software Design & Development, High performance computing, Technological innovation, Big data, Scalability, Serverless computing, Stateful big data, In-memory data grids"
+subtitle: "Serverless Data Analytics Platform"
+meta_author: CloudButton Consortium
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+#disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  #primary: 18bc9c #80B3FF
+  #primary-rgb: "24,288,156" #"128,179,255"
+  #secondary: 2c3e50 #FD6E8A
+  #secondary-dark: 233140 #A2122F
+  primary: 5e8ac7 # 18bc9c #80B3FF
+  primary-rgb: "94,138,199" # "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 0c1117 #233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: CloudButton consortium
+  contact: Contact
+  social: Keep in touch
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/cloudbutton2020
+  - title: youtube
+    url: https://www.youtube.com/channel/UCJTICoSQJXlfgkoYP3-ltUA
+  - title: github
+    url: http://github.com/cloudbutton
+
+# Postal address (add as many lines as necessary)
+#address:
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
+contact_data:
+  title: Project Coordinator
+  name: Dr. Pedro García López
+  email: pedro.garcia@urv.cat
+
+# Funding content
+funding:
+  img: '/img/flag_yellow_low.jpg'
+  text: 'CloudButton has received funding from the European Union''s <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020 research and innovation programme</a> under grant agreement No 825184.'
+
+collections:
+  - partners
+  - use_cases
+  - deliverables 
+  - publications
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+#theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

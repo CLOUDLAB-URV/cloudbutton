@@ -1,0 +1,19 @@
+---
+layout: default
+modal-id: 12 
+date: 2020-11-17
+news-date: 17 Nov 2020
+img: lithops-logo.png
+img-caption: "Lithops"
+alt: image-alt
+title: Release of the Lithops framework
+author: CloudButton project
+
+---
+<p>CloudButton released one of the main software outcomes of the project: the <a href="http://lithops.cloud/">Lithops framework</a>. Lithops aims to massively scale the execution of Python code and its dependencies on serverless computing platforms and to monitor the results. Lithops delivers the user’s code into the serverless platform without requiring knowledge of how functions are invoked and run.</p> 
+
+<p>The framework provides an extensible backend architecture (compute, storage) that is designed to work with different Cloud providers and on-premise backends (Knative, OpenWhisk). You can edit programs using Lithops in a laptop and then run the unmodified code at scale in the cloud using any cloud provider (IBM Cloud, AWS, Azure, Google Cloud and Alibaba Aliyun).</p>
+
+<p>
+ Check out the Lithops code on GitHub: <a href="https://github.com/lithops-cloud/lithops/">https://github.com/lithops-cloud/lithops/</a>.
+</p>

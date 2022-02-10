@@ -1,0 +1,17 @@
+---
+layout: default
+modal-id: 7
+date: 2019-10-15
+news-date: 15 October 2019
+img: ebdvf19.jpg
+img-caption: Ofer Biran's talk at the European Big Data Value Forum 2019, Helsinki, Finland.
+alt: image-alt
+title: CloudButton at European Big Data Value Forum 2019
+author: CloudButton Consortium
+---
+
+<p>Dr. <a href="https://www.european-big-data-value-forum.eu/ofer-brian/">Ofer Biran</a> (IBM Research Haifa) gave a talk at the <b>European Big Data Value Forum (EBDVF)</b> that took place from 14th to 16th of October in Helsinki, Finland. EBDVF is the main event of the European Big Data and Data-Driven AI Research and Innovation community.</p> 
+
+<p>Ofer Biran's talk, entitled <b>Your easy move to serverless computing and radically simplified data processing</b> created a lot of interests. He presented <a href="https://github.com/pywren/pywren-ibm-cloud">Cloud Button Toolkit</a>, a framework that is being developed as part of the CloudButton project. Ofer took a deep dive into the challenge of how serverless computing can be easily used for a broad range of scenarios, like high-performance computing (HPC), Monte Carlo simulations, and data preprocessing for AI. He also showed how this toolkit has been used in some of the project use cases like metabolomics use case from EMBL.</p>
+
+![Summary](img/news/ebdvf19_summary.jpg){:class="img-responsive"}

@@ -1,0 +1,18 @@
+---
+layout: default
+modal-id: 1 
+date: 2019-01-02
+news-date: 2 January 2019
+img: tarragona.jpg
+img-caption: Tarragona, Catalonia, Spain.
+alt: image-alt
+title: CloudButton kick-off meeting will take place in Tarragona on January 22th-25th 2019
+author: CloudButton Consortium
+---
+
+<p>All partners will meet in Tarragona, Spain to officially launch the project.</p>
+
+<p>CloudButton, with project number 825184, is funded under the topic <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ict-12-2018-2020" target="_blank">ICT-12-2018-2020</a> "Big Data technologies and extreme-scale analytics" of European Union's <a href="https://ec.europa.eu/programmes/horizon2020/en" target="_blank">Horizon 2020</a> research and innovation programme. The main objective of the project is to create a Serverless Data Analytics Platform that <i>democratizes big data</i> by overly simplifying the overall life cycle and programming model thanks to serverless technologies. To demonstrate the impact of the project, two settings with large data volumes are targeted: bioinformatics (genomics, metabolomics) and geospatial data (LiDAR, satellital).</p>
+
+<p>During the meeting all issues related to management, finance and collaboration of the CloudButton project will be presented and discussed. The first day will be devoted to a plenary session to present an overall view of the project. The next days will be structured in parallel sessions where the participants will focus on the specification of use cases and the technologies to be used.</p>
+

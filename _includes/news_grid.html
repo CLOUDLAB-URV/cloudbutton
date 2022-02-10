@@ -1,0 +1,42 @@
+
+    <!-- News Grid Section -->
+    <section id="news" class="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>News</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                {% for post in site.posts %}
+                    <div class="col-sm-6 portfolio-item">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <img src="img/news/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                        <div class="text-right news-date">
+                            {% if post.news-date %}
+                                {{ post.news-date }}
+                            {% endif %}
+                        </div>
+                        <h4 class="news-title">
+                            <a href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal">
+                                {{ post.title }}
+                            </a>
+                        </h4>
+                    </div>
+                    
+                    {% assign remainder = forloop.index0 | modulo: 2 %}
+                    {% if remainder == 1 %}
+                        <div class="clearfix"></div>
+                    {% endif %}
+
+                {% endfor %}
+                </div>
+                <div class="col-sm-4">
+                    <a class="twitter-timeline" href="https://twitter.com/cloudbutton2020?ref_src=twsrc%5Etfw" data-width="360" data-height="1500" >Tweets by cloudbutton2020</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+    </section>

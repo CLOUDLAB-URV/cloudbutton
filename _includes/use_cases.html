@@ -1,0 +1,24 @@
+    <!-- Use cases Section -->
+    <section id="use_cases">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Use cases</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                {% for uc in site.use_cases %}
+                    <div class="col-sm-4 text-center">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-{{ uc.icon }} fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4>{{ uc.title }}</h4>
+
+                        <p class="small">{{ uc.short-description }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>

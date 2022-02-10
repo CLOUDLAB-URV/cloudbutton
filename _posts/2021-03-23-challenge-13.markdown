@@ -1,0 +1,21 @@
+---
+layout: default
+modal-id: 13 
+date: 2021-03-23
+news-date: 23 Mar 2021
+img: network.jpg
+img-caption: "CloudButton Big Data Challenge"
+alt: image-alt
+title: CloudButton announces the first Big Data Challenge
+author: CloudButton project
+
+---
+<p>The <a href="https://challenge.cloudbutton.eu/">CloudButton Big Data challenge</a> consists of developing the entire life cycle of a Big Data application including data acquisition and storage, data preprocessing and indexing, and data queries and visualization. The solution must use the <a href="https://github.com/lithops-cloud/lithops/">Lithops Toolkit</a> and run in the IBM Cloud.</p>
+
+<p>This Challenge is organized by the H2020 CloudButton project and Universitat Rovira i Virgili, with the collaboration of IBM, RedHat and ATOS. The evaluation committee will include representatives from the four institutions. The CloudButton project is developing novel Cloud technologies aiming to democratize Big Data applications in the Cloud. The CloudButton project has created the Lithops Toolkit that will be used to implement the Big Data challenge.</p>
+
+<p>The Challenge is open to students of Computer Engineering in the last courses and Master students, and they can participate in <b>groups of up to three members</b>. Application is open until <b>April 15th</b>.</p> 
+
+<p>
+ For more information and registration forms, please check out <a href="https://challenge.cloudbutton.eu/">challenge.cloudbutton.eu</a>
+</p>

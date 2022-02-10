@@ -1,0 +1,32 @@
+---
+layout: default
+modal-id: 11 
+date: 2020-05-13
+news-date: 13 May 2020
+img: faasm_logo_0.png
+img-caption: "Faasm: Serverless Big Data Runtime"
+alt: image-alt
+title: Faasm accepted at ATC 2020
+author: Imperial College London
+
+---
+
+<p>We are happy to announce that the work of the <a href="https://lsds.doc.ic.ac.uk/">LSDS group</a> at <a href="https://www.imperial.ac.uk/">Imperial College London</a> on <b>Faasm</b>, a high-density stateful serverless runtime based on WebAssembly, was accepted at <a href="https://www.usenix.org/conference/atc20">USENIX Annual Technical Conference (ATC 2020)</a>. ATC will take place on July 15–17, 2020, in Boston, MA, USA, and is one of the most prestigious systems venues. Kudos to Simon Shillaker and Peter Pietzuch!</p>
+
+<p>
+Faasm is a high-performance stateful serverless runtime. The goal of the project is enabling fast, efficient serverless big data.
+</p>
+
+<p>Faasm provides multi-tenant isolation, but also lets functions share regions of memory. These shared memory regions give low-latency concurrent access to data, supporting high-performance distributed serverless applications.</p>
+
+<p>By running WebAssembly, Faasm combines software fault isolation with standard OS tooling to provide security and resource isolation guarantees at low cost. Functions run side-by-side as threads of a single runtime process, with low overheads and fast boot times.
+</p>
+
+<p>
+ Check out the Faasm code on GitHub: <a href="https://github.com/lsds/Faasm">https://github.com/lsds/Faasm</a>.
+</p>
+
+<p>
+ Check out the paper preprint on Arxiv: <a href="https://arxiv.org/abs/2002.09344">Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing</a>.
+</p>
+
