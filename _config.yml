@@ -16,15 +16,15 @@
 title: CloudButton - Serverless Data Analytics Platform
 logo: "logo_h_w.png"
 email: your-email@domain.com
-url: http://cloudbutton.eu
+# url: http://cloudbutton.eu
 description: "H2020 CloudButton project - Serverless Data Analytics Platform"
 keywords: "Cloud Computing models, Software Design & Development, High performance computing, Technological innovation, Big data, Scalability, Serverless computing, Stateful big data, In-memory data grids"
 subtitle: "Serverless Data Analytics Platform"
 meta_author: CloudButton Consortium
 
 domain: cloudlab-urv.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://cloudlab-urv.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /cloudbutton/      # place folder name if the site is served in a subfolder
+url: https://cloudlab-urv.github.io/cloudbutton  # the base hostname and protocol for your site, e.g. http://example.com
+# baseurl: /cloudbutton/      # place folder name if the site is served in a subfolder
 
 # Google webmaster tools
 google_verify:
